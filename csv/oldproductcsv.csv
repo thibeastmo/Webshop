@@ -1,0 +1,36 @@
+naam;merk;prijs;hoofdcategorie;geslacht;afbeelding;aantalkeerbekeken;subcategorie;beschrijving
+e-fiets;Granville;1900,00;Fietsen;K;0;25;fiets;
+Staander;Kuota;11,00;Onderdelen;M;0;15;staander;
+e-fiets;Granville;2050,00;Fietsen;V;0;10;fiets;
+e-fiets;Qwic;2500,00;Fietsen;V;0;2;fiets;
+e-fiets;Granville;2000,00;Fietsen;V;0;1;fiets;beschrijving
+e-fiets;Granville;2000,00;Fietsen;V;0;1;fiets;beschrijving
+Helm;Dockx;20,00;Kleding;K;0;30;helm;
+Fluohestje;Ebay;35,00;Kleding;O;0;51;fluohestje;
+Bel;Walmarkt;8,00;Accessoires;O;0;15;bel;
+Fietshandschoenen;Walmarkt;25,00;Kleding;V;0;12;fietshandschoenen;
+Fietshandschoenen;Walmarkt;25,00;Kleding;M;0;13;fietshandschoenen;
+Pomp;Ebay;13,00;Accessoires;O;0;20;pomp;
+Mountainbike;Gazelle;350,00;Fietsen;M;0;47;mountainbike;
+Kinderfiets;Gazelle;150,00;Fietsen;K;0;26;fiets;
+Toeter;Flex;5,00;Accessoires;O;0;2;toeter;
+Bel;Flex;6,00;Accessoires;O;0;73;bel;
+Bel;Disflex;6,50;Accessoires;O;0;65;bel;
+Pedalen;Hamachi;34,99;Onderdelen;O;0;23;pedalen;
+Pedalen;Flex;30,00;Onderdelen;O;0;35;pedalen;
+Banden;Hamachi;9,00;Onderdelen;O;0;23;banden;
+Banden;Flex;24,00;Onderdelen;O;0;23;banden;
+Spaken;Metal;25,99;Onderdelen;O;0;12;spaken;
+Remmen;Koeniseig;12,99;Onderdelen;O;0;13;remmen;
+Staander;Kuota;10,00;Onderdelen;V;0;14;staander;
+Staander;Kuota;10,00;Onderdelen;V;0;14;staander;
+Tandwiel XL;Hamachi;13,99;Onderdelen;O;0;19;tandwiel;
+Tandwiel X;Hamachi;12,99;Onderdelen;O;0;21;tandwiel;
+Tandwiel L;Hamachi;11,99;Onderdelen;O;0;23;tandwiel;
+Tandwiel M;Hamachi;10,99;Onderdelen;O;0;25;tandwiel;
+Tandwiel S;Hamachi;9,99;Onderdelen;O;0;27;tandwiel;
+Tandwiel XS;Hamachi;8,99;Onderdelen;O;0;29;tandwiel;
+Reflectoren orangje;ReflX;6,99;Accessoires;O;0;23;reflectoren;
+Reflectoren rood;ReflX;4,99;Accessoires;O;0;45;reflectoren;
+Koplamp groot;LightX;34,99;Accessoires;O;0;57;koplamp;
+Koplamp klein;LightX;34,99;Accessoires;O;0;58;koplamp;

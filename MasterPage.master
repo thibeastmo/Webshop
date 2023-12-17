@@ -1,0 +1,84 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" EnableViewState="false" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Webshop - Fietsen Mariën</title>
+    <link href="css/style.css" rel="stylesheet" />
+    <%--<link href="css/style.min.css" rel="stylesheet" />--%>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header>
+            <nav>
+                <asp:ImageButton ID="btnimg" CssClass="navlogo" runat="server" OnClick="btnimg_Click" />
+                <div id="speciaal">
+                    <%--Deze div is bedoeld voor speciale gelegenheden zoals kerstmis etc.--%>
+                </div>
+                <asp:Panel ID="Panel1" runat="server" DefaultButton="btnSearch">
+                    <asp:TextBox ID="txtSearch" runat="server" placeholder="Voer een zoekterm in..."></asp:TextBox>
+                    <asp:Button ID="btnSearch" runat="server" Text="Zoek" OnClick="btnSearch_Click" />
+                </asp:Panel>
+                <asp:Button ID="btnProfiel" CssClass="navprofiel" runat="server" Text="" OnClick="btnProfiel_Click" />
+                <asp:Button ID="btnWinkelkar" CssClass="navwinkelkar" runat="server" OnClick="btnWinkelkar_Click" />
+                <%--<button type="button" id="btnUser" runat="server" onclick="Profile.aspx">
+                    <img src="images/winkelkar.png" />
+                    <span>Aanmelden</span>
+                </button>--%>
+            </nav>
+        </header>
+        <div id="body">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <!--- footer --->
+        <footer id="footer" runat="server">
+            <div class="footer">
+                <div>
+                    <h2>Contact:</h2>
+                    <br />
+                    <span>0479/53.93.35</span><br />
+                    <span>info@fietsen-marien.be</span><br />
+                    <span>BE05733046438475</span>
+                </div>
+                <div>
+                    <h2>Adres:</h2>
+                    <br />
+                    <span>Stoffezandstraat 3</span><br />
+                    <span>2990 Loenhout</span>
+                </div>
+                <img src="images/logo_fietsenmarien_original.png" />
+                <span>
+                    <a href="https://www.facebook.com/FietsenMarien/" class="fa fa-facebook"></a>
+                    <%--<a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-google"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-youtube"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-pinterest"></a>
+            <a href="#" class="fa fa-snapchat-ghost"></a>
+            <a href="#" class="fa fa-skype"></a>
+            <a href="#" class="fa fa-android"></a>
+            <a href="#" class="fa fa-dribbble"></a>
+            <a href="#" class="fa fa-vimeo"></a>
+            <a href="#" class="fa fa-tumblr"></a>
+            <a href="#" class="fa fa-vine"></a>
+            <a href="#" class="fa fa-foursquare"></a>
+            <a href="#" class="fa fa-stumbleupon"></a>
+            <a href="#" class="fa fa-flickr"></a>
+            <a href="#" class="fa fa-yahoo"></a>
+            <a href="#" class="fa fa-reddit"></a>
+            <a href="#" class="fa fa-rss"></a>--%>
+                </span>
+            </div>
+            <div id="belowfooter">
+                <h4>Webshop made by <a href="mailto:thimo@fmgraphics.be">Thimo Mortelmans</a></h4>
+            </div>
+        </footer>
+        <!--- footer END --->
+    </form>
+</body>
+</html>
